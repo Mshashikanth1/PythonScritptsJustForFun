@@ -1,3 +1,4 @@
+# this is a  number guss game enjoy;
 import random
 from colorama import Fore, Back, Style
 if 'y'==input(Fore.GREEN+'dou you wanted to play?(y) to play(n) to quit:').lower():
