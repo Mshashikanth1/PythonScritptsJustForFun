@@ -1,3 +1,41 @@
+#this is my stack implementaion in both array and linked list
+
+class Node:
+    def __init__(self,data):
+        self.data=data
+        self.next=None
+class stack_using_linkedlist:
+    def __init__(self,size):
+        self.head=None
+        self.tail=None
+        self.top=-1
+        self.size=size
+    def isempty(self):
+        return self.top==-1
+    def isfull9self):
+        return self.top==self.size-1
+    def push(self,ele):
+        if self.isfull():
+            print("overflow")
+        else:
+            newnode=Node(ele)
+            if isempty:
+                self.head=newnode
+                self.tail=newnode
+            else:
+                self.tail=newnode
+    def pop(self):
+      self.top-=1
+      return self.tail.data
+    
+    def display(self):
+        if isempty
+            
+
+
+
+
+
 class stack_using_array:
     def __init__(self,size):
         self.array=[]
@@ -28,6 +66,12 @@ class stack_using_array:
     def display(self):
         for i in range(self.top,-1,-1):
             print("["+str(self.array[i])+"]",end="\n")
+            
+            
+            
+            
+            
+            
             
 
 
