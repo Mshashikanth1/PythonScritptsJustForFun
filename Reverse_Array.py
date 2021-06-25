@@ -1,4 +1,4 @@
-
+#this  protgramme reverses the array given
 def reverse(arr,start,end):
     while start<end:
           arr[start],arr[en>
